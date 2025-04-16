@@ -18,25 +18,25 @@
       "value": [
         {
           "name": "AzureBastionSubnet",
-          "ipAddressRange": "10.20.0.0/24",
+          "ipAddressRange": "10.20.8.128/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
           "name": "GatewaySubnet",
-          "ipAddressRange": "10.20.254.0/24",
+          "ipAddressRange": "10.20.11.0/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
-          "name": "AzureFirewallSubnet",
-          "ipAddressRange": "10.20.255.0/24",
+          "name": "FirewallSubnet",
+          "ipAddressRange": "10.20.11.192/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
-          "name": "AzureFirewallManagementSubnet",
-          "ipAddressRange": "10.20.253.0/24",
+          "name": "FirewallManagementSubnet",
+          "ipAddressRange": "10.20.9.192/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         }
@@ -73,10 +73,10 @@
       "value": true
     },
     "parDdosPlanName": {
-      "value": "alz-ddos-plan-australiaeast"
+      "value": ""
     },
     "parAzFirewallEnabled": {
-      "value": true
+      "value": false
     },
     "parAzFirewallName": {
       "value": "alz-azfw-australiaeast"
@@ -130,7 +130,7 @@
       "value": []
     },
     "parVpnGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parVpnGatewayConfig": {
       "value": {
@@ -155,7 +155,7 @@
       }
     },
     "parExpressRouteGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parExpressRouteGatewayConfig": {
       "value": {
