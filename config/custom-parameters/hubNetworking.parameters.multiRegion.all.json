@@ -134,7 +134,7 @@
       "value": "alz-ddos-plan-australiaeast"
     },
     "parDdosEnabledSecondaryLocation": {
-      "value": true
+      "value": false
     },
     "parDdosPlanNameSecondaryLocation": {
       "value": "alz-ddos-plan-"
