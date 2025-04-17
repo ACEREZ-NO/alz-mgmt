@@ -70,10 +70,10 @@
       "value": "nsg-AzureBastionSubnet-australiaeast"
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parDdosPlanName": {
-      "value": ""
+      "value": "alz-ddos-plan-australiaeast"
     },
     "parAzFirewallEnabled": {
       "value": false
