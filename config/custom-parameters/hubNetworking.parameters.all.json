@@ -18,25 +18,25 @@
       "value": [
         {
           "name": "AzureBastionSubnet",
-          "ipAddressRange": "10.20.0.0/24",
+          "ipAddressRange": "10.20.8.128/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
           "name": "GatewaySubnet",
-          "ipAddressRange": "10.20.254.0/24",
+          "ipAddressRange": "10.20.11.0/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
           "name": "AzureFirewallSubnet",
-          "ipAddressRange": "10.20.255.0/24",
+          "ipAddressRange": "10.20.11.192/16",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
           "name": "AzureFirewallManagementSubnet",
-          "ipAddressRange": "10.20.253.0/24",
+          "ipAddressRange": "10.20.9.192/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         }
