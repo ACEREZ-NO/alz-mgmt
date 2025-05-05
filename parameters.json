@@ -1,0 +1,20 @@
+{
+  "AVAILABILITY_ZONES": [
+    "1",
+    "2",
+    "3"
+  ],
+  "AVAILABILITY_ZONES_SECONDARY": [],
+  "CONNECTIVITY_RESOURCE_GROUP": "rg-alz-connectivity",
+  "CONNECTIVITY_SUBSCRIPTION_ID": "ce582519-c8e5-4709-a977-d72319f224a1",
+  "IDENTITY_SUBSCRIPTION_ID": "3d3ece30-66e5-42b6-a17e-4f20ec51344a",
+  "LOCATION": "australiaeast",
+  "LOGGING_RESOURCE_GROUP": "rg-alz-logging",
+  "MANAGEMENT_SUBSCRIPTION_ID": "b771f123-b01d-44ea-a361-7bccdbe4ca46",
+  "NETWORK_TYPE": "hubNetworking",
+  "MANAGEMENT_GROUP_ID": "alz",
+  "PREFIX": "alz",
+  "RELEASE_VERSION": "v0.22.1",
+  "ROOT_PARENT_MANAGEMENT_GROUP_ID": "",
+  "SECONDARYLOCATION": ""
+}
