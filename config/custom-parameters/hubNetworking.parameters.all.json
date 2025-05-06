@@ -12,7 +12,7 @@
       "value": "alz-hub-australiaeast"
     },
     "parHubNetworkAddressPrefix": {
-      "value": "10.20.0.0/16"
+      "value": "10.20.0.0/19"
     },
     "parSubnets": {
       "value": [
@@ -29,13 +29,13 @@
           "routeTableId": ""
         },
         {
-          "name": "AzureFirewallSubnet",
-          "ipAddressRange": "10.20.11.192/16",
+          "name": "FirewallSubnet",
+          "ipAddressRange": "10.20.11.192/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
-          "name": "AzureFirewallManagementSubnet",
+          "name": "FirewallManagementSubnet",
           "ipAddressRange": "10.20.9.192/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
@@ -70,10 +70,10 @@
       "value": "nsg-AzureBastionSubnet-australiaeast"
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parDdosPlanName": {
-      "value": "alz-ddos-plan-australiaeast"
+      "value": ""
     },
     "parAzFirewallEnabled": {
       "value": true
@@ -195,49 +195,49 @@
     "parGlobalResourceLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     },
     "parVirtualNetworkLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     },
     "parBastionLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     },
     "parDdosLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     },
     "parAzureFirewallLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     },
     "parHubRouteTableLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     },
     "parPrivateDNSZonesLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     },
     "parVirtualNetworkGatewayLock": {
       "value": {
         "kind": "None",
-        "notes": "This lock was created by the ALZ Bicep Hub Networking Module."
+        "notes": "This lock was created by the TML ALZ Bicep Hub Networking Module."
       }
     }
   }
