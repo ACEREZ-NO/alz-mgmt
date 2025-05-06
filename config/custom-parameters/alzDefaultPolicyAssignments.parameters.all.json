@@ -12,7 +12,7 @@
       "value": ""
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parPlatformMgAlzDefaultsEnable": {
       "value": true
@@ -54,7 +54,7 @@
       "value": "michael.heynes.ext@acerez.com.au"
     },
     "parDdosProtectionPlanId": {
-      "value": "/subscriptions/ce582519-c8e5-4709-a977-d72319f224a1/resourceGroups/rg-alz-connectivity/providers/Microsoft.Network/ddosProtectionPlans/alz-ddos-plan"
+      "value": ""
     },
     "parPrivateDnsResourceGroupId": {
       "value": "/subscriptions/ce582519-c8e5-4709-a977-d72319f224a1/resourceGroups/rg-alz-connectivity"
