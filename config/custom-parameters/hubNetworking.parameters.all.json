@@ -29,13 +29,13 @@
           "routeTableId": ""
         },
         {
-          "name": "FirewallSubnet",
+          "name": "AzureFirewallSubnet",
           "ipAddressRange": "10.20.11.192/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
         },
         {
-          "name": "FirewallManagementSubnet",
+          "name": "AzureFirewallManagementSubnet",
           "ipAddressRange": "10.20.9.192/26",
           "networkSecurityGroupId": "",
           "routeTableId": ""
