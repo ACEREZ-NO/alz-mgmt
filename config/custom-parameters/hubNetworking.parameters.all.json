@@ -12,7 +12,7 @@
       "value": "alz-hub-australiaeast"
     },
     "parHubNetworkAddressPrefix": {
-      "value": "10.20.0.0/19"
+      "value": "10.20.8.0/21"
     },
     "parSubnets": {
       "value": [
