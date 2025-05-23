@@ -1,0 +1,28 @@
+name: Deploy Storage Account
+
+on:
+  push:
+    paths:
+      - 'infra-as-code/bicep/modules/storageAccount/**'
+      - '.github/workflows/deploy-storage-account.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Azure Login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Deploy Storage Account
+      run: |
+        az deployment sub create \
+          --location australiaeast \
+          --template-file infra-as-code/bicep/modules/storageAccount/main.bicep \
+          --parameters @infra-as-code/bicep/modules/storageAccount/parameters.json
