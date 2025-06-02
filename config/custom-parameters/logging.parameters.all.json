@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parLogAnalyticsWorkspaceName": {
-      "value": "alz-log-analytics"
+      "value": "law-sec-prod-sentinel-aue-001"
     },
     "parLogAnalyticsWorkspaceLocation": {
       "value": "australiaeast"
